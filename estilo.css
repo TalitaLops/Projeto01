@@ -1,0 +1,256 @@
+/* RESET */
+
+* {
+    margin: 0;
+    /* Margem */
+    padding: 0;
+    /*Espaçamento interno*/
+    font-size: 100%;
+    /*tamanho da fonte*/
+    font-family: 'Open Sans', sans-serif;
+    /*tipo de fonte*/
+    font-weight: normal;
+    /*largura da fonte*/
+    box-sizing: border-box;
+    /*tamanho da caixa*/
+    border: none;
+    /* Borda tradicional*/
+    outline: none;
+    /* linha de fundo*/
+}
+
+img {
+    max-width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #333;
+}
+
+p {
+    font-size: 1em;
+    color: #777;
+}
+
+
+/* CABEÇALHO */
+
+.cabecalho {
+    width: 100%;
+    float: left;
+    padding: 50px 8%;
+    background-color: cyan;
+}
+
+.logo a {
+    width: 84px;
+    height: 97px;
+    float: left;
+    background-image: url(../imagens/só\ mais\ essa.jpeg);
+    font-size: 0;
+}
+
+.cabecalho form {
+    width: 30%;
+    float: right;
+}
+
+.cabecalho input[type="text"] {
+    width: 85%;
+    float: left;
+    padding: 15px 10px;
+    border-radius: 5px 0 0 5px;
+}
+
+.cabecalho button {
+    width: 15%;
+    float: right;
+    padding: 15px 10px;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    color: #fff;
+    background: linear-gradient(to bottom, #0cae98, #fff);
+}
+
+
+/* MENU */
+
+.menu {
+    width: 100%;
+    float: right;
+    background-color: black;
+    padding: 18px 8%;
+}
+
+.menu li {
+    float: left;
+}
+
+.menu a {
+    color: blanchedalmond;
+    margin-right: 25px;
+}
+
+.menu li a:hover {
+    color: bisque;
+    font-size: 1.25em;
+}
+
+.social-icons {
+    float: right;
+}
+
+.social-icons a {
+    color: #fff;
+    float: left;
+    margin-left: 17px;
+}
+
+
+/* PRINCIPAL */
+
+.principal {
+    width: 100%;
+    float: left;
+    padding: 16px 8%;
+}
+
+.sobre {
+    width: 70%;
+    float: left;
+    padding: 0 20px 20px 0;
+}
+
+.sobre h2 {
+    margin-bottom: 15px;
+}
+
+.sobre img {
+    width: 50%;
+    float: left;
+    border-radius: 6px;
+    margin: 0 15px 15px 0;
+}
+
+.sobre p {
+    text-align: justify;
+    font-size: 1.2em;
+}
+
+
+/* ONDE ESTAMOS */
+
+.onde-estamos {
+    width: 30%;
+    float: right;
+    padding: 10px 20px;
+    background-color: #ccc;
+    border-radius: 11px;
+}
+
+.onde-estamos h2,
+p {
+    margin: bottom 7px;
+    text-align: center;
+}
+
+.onde-estamos iframe {
+    width: 100%;
+    height: 210px;
+    margin: 13px 0;
+}
+
+.onde-estamos li {
+    color: aqua;
+    margin-bottom: 6px;
+}
+
+
+/* NEWSLETTER */
+
+.newsletter {
+    width: 100%;
+    float: left;
+    background-color: #111;
+    padding: 50px 8%;
+}
+
+.newsletter h3 {
+    font-size: 1.8em;
+    color: #fff;
+}
+
+.newsletter p {
+    font-size: 1.2em;
+    color: #fff;
+}
+
+.newsletter form {
+    width: 100%;
+    float: left;
+    margin-top: 10px;
+}
+
+.newsletter form input {
+    width: 40%;
+    margin-right: 1%;
+    padding: 15px 10px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    color: #fff;
+    background-color: initial;
+}
+
+.newsletter button {
+    width: 17%;
+    background-color: #fff;
+    padding: 15px 10px;
+    border-radius: 10px;
+    float: right;
+    cursor: pointer;
+}
+
+.rodape {
+    width: 100%;
+    float: left;
+    background-color: darkcyan;
+    padding: 25px 8%;
+}
+
+.rodape p {
+    color: #fff;
+}
+
+
+/*SERVICOS*/
+
+.tabela1 {
+    text-align: center;
+    width: 100%;
+    padding: 0px 150px 30px 150px;
+    font-size: 20px;
+}
+
+.tabela1 tr {
+    background-color: #343D59;
+    color: #fff;
+}
+
+.tabela1 a {
+    color: #BF7E8A;
+}
+
+.titulodapagina {
+    text-align: left;
+    font-size: 35px;
+    padding: 10px 150px 30px 150px;
+}
